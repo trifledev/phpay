@@ -1,0 +1,25 @@
+{
+  "name": "trifledev/phpay",
+  "description": "Payment gateway adapter for custom PHP applications",
+  "keywords": ["payment", "paypal", "api", "payment gateway", "php payment"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Victoria Speckmann-Bresges",
+      "email": "vspeckmann@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.3.*"
+  },
+  "autoload": {
+    "psr-4" : {
+      "Trifledev\\Phpay\\" : "src"
+    }
+  }
+}
